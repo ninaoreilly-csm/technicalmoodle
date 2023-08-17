@@ -36,7 +36,7 @@
 }    
 
 
-.img:hover {
+.grid-image:hover {
 	filter: grayscale(0) !important;
 }
 
