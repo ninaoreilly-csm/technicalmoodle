@@ -36,8 +36,8 @@
 }    
 
 
-.image:hover {
-	filter: grayscale(0) !important;
+.grid-image:hover {
+	filter: grayscale(0%) !important;
 }
 
 .card {
