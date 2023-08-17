@@ -64,7 +64,6 @@
 .text-truncate {
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: pre-wrap;
     color: #f7f7f7;
 }
 
