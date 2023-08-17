@@ -1,41 +1,65 @@
-.course-header-txt {
-	background-color: #0d0c0bb8!important;
-	color:white!important;
+
+/*--Change section highlight background color --*/  
+
+.course-content ul.ctopics li.section.current .content .toggle {
+    background-color: rgb(228, 222, 225);
 }
 
-.course-content .course-section .course-section-header {
-	background-color: white!important;
-	padding: 0 15px;
+.course-content ul.ctopics li.section.current .content .toggle-arrow { 
+    filter: invert(100%);
 }
 
-.navigationtitle {
-	display:none!important;
+.course-content ul.ctopics li.section.current .content .toggle span h3.sectionname{
+    filter: invert(100%);
+    color: rgb(255,255,255);
 }
 
-.single-section h3.sectionname {
-	letter-spacing: 1px;
-	font-size: 2.5rem !important;
-	text-transform: uppercase;
+
+/*--Fixes to Grid format after Moodle 4.1  from Elena LCC --*/  
+
+.thegrid {
+    box-sizing: unset;
+    justify-content: left!important;
+    text-decoration: none;
+    font-weight: bold;
+} 
+
+.grid-image {
+    position: relative;
+    vertical-align: bottom!important;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+    vertical-align: bottom!important;
+/*    border: 1px solid black;*/
+}    
+
+.card {
+    border-radius: unset;
+    border: unset;
 }
 
-.card-header.text-truncate {
-	height: 192px;
-	position: absolute;
-	width: 192px;
-	font-size: 18px;
-	color: white;
-	z-index: 3;
-	white-space: normal;
-	font-weight: 400;
-	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)) !important;
+.card-header:first-child {
+    border-radius: unset;
 }
 
-.format-grid .thegrid {
-	justify-content: center!important;
-	width: 80%;
-	margin: auto;
-	}
-
-.format-grid .thegrid .grid-image img {
-	position: absolute; object-fit: cover; height: 100%; width: 100%; z-index: 0;
+.card-header {
+    position: absolute;
+    z-index: 3;
+    
+    white-space: normal;
+    padding: 6px;
+/*    border-top: 1px solid rgba(255, 255, 255, .85);*/
+    background-color: white;
+    opacity: .85;
+    width: 100%;
 }
+
+.card-img {
+    border-radius: unset;
+}
+
+.card-img-bottom {
+    border-radius: unset;
+}
+
