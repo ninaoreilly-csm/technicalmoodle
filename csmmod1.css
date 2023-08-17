@@ -67,6 +67,10 @@
     white-space: pre-wrap;
     color: #f7f7f7;
 }
+
+.text-truncate:hover {
+    color: #FF5000;
+}
 .card-img {
     border-radius: unset;
 }
