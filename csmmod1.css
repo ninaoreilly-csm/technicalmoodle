@@ -50,11 +50,16 @@
     white-space: normal;
     padding: 6px;
 /*    border-top: 1px solid rgba(255, 255, 255, .85);*/
-    background-color: white;
+    background-color: #000000b5;
     opacity: .85;
     width: 100%;
 }
-
+.text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #f7f7f7;
+}
 .card-img {
     border-radius: unset;
 }
