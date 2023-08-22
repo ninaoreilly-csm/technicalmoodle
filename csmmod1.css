@@ -38,6 +38,7 @@
 
 .grid-image:hover {
 	filter: grayscale(0%) !important;
+	 transform: translateY(-2.5px);
 }
 
 .card {
