@@ -42,12 +42,12 @@
 }
 
 .card {
-    border-radius: unset;
+    border-radius: 20px;
     border: unset;
 }
 
 .card-header:first-child {
-    border-radius: unset;
+    border-radius: 20px;
 }
 
 .card-header {
@@ -73,11 +73,18 @@
 
 
 .card-img {
-    border-radius: unset;
+    border-radius: 20px;
 }
 
 .card-img-bottom {
-    border-radius: unset;
+    border-radius: 20px;
 }
-
+.page-header h1.h2 {
+	display: none;
+}
+.breadcrumb:not(:empty) {
+	display: none;
+}
+.course-content h3.sectionname a:nth-child(1) {
+	display: none:
 
