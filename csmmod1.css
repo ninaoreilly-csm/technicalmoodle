@@ -75,11 +75,11 @@
 
 
 .card-img {
-    border-radius: 20px;
+    border-radius: unset;
 }
 
 .card-img-bottom {
-    border-radius: 20px;
+    border-radius: unset;
 }
 .page-header-headings:not(.text-truncate), .coursename:not(.text-truncate), .categoryname:not(.text-truncate), .breadcrumb-item:not(.text-truncate) {
 	display: none;
@@ -88,7 +88,9 @@
 	display: none;
 }
 .course-content h3.sectionname a:nth-child(1) {
-	display: none:
+	display: none;
 }
-
+.format-grid .thegrid .grid-section {
+	border-radius: 10px
+}
 
