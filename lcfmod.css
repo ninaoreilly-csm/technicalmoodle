@@ -851,3 +851,6 @@ body{
     .modtype_turnitintooltwo .activityiconcontainer, .modicon_turnitintooltwo  {
       background: #f691bf;
     }
+.single-section h3.sectionname {
+    dislay: none;
+}
