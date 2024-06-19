@@ -536,25 +536,14 @@ body{
     }
     
     .single-section h3.sectionname {
-        letter-spacing: 0px;
-        font-size: 3rem !important;
-        margin:35px auto;
-        font-weight: 400;
         display: none;
     }
     
     .single-section h3.sectionname a{
-       text-decoration:none;
          display: none;
     }
     
     .single-section h3.sectionname:after {
-       content: "";
-        display: block;
-        margin: 0 auto;
-        width: 60%;
-        padding-top: 25px;
-        border-bottom: 3px solid rgb(61 77 123 / 97%);
          display: none;
     }
     
