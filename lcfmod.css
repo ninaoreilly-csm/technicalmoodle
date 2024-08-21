@@ -635,12 +635,12 @@ body{
     
     .prevsection {
       background:  transparent;  
-        padding: 10px 20px 10px 50px;
-        width: 25ch;
+        padding: ;
+        width: ;
         text-overflow: ellipsis;
         overflow: hidden;
         white-space: nowrap;
-        clip-path: polygon(100% 0%, 95% 50%, 100% 100%, 10% 100%, 0% 50%, 10% 0%);
+        clip-path: ;
         color: white;
     }
     
@@ -659,9 +659,9 @@ body{
     
     .nextsection {
        background: transparent;
-        padding: 10px 15px 10px 30px;
-       clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 5% 50%, 0% 0%);
-        width: 25ch;
+        padding: ;
+       clip-path: ;
+        width: ;
         text-overflow: ellipsis;
         overflow: hidden;
         white-space: nowrap;
