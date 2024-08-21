@@ -634,7 +634,7 @@ body{
     /*----- Grid Section Bottom Navigation ------*/
     
     .prevsection {
-      background:  rgba(0,0,0,0);  
+      background:  transparent;  
         padding: 10px 20px 10px 50px;
         width: 25ch;
         text-overflow: ellipsis;
