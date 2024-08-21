@@ -658,7 +658,7 @@ body{
     }
     
     .nextsection {
-       background: #555;
+       background: transparent;
         padding: 10px 15px 10px 30px;
        clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 5% 50%, 0% 0%);
         width: 25ch;
