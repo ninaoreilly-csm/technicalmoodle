@@ -208,7 +208,7 @@ body{
        margin-left: -15px;
        margin-right: -15px;
        bottom:0;
-       min-height: ;
+       min-height: none;
        padding-left: 60px;
        width:80%;
        
@@ -635,12 +635,12 @@ body{
     
     .prevsection {
       background:  transparent;  
-        padding: ;
-        width: ;
+        padding: none;
+        width: none;
         text-overflow: ellipsis;
         overflow: hidden;
         white-space: nowrap;
-        clip-path: ;
+        clip-path: none;
         color: white;
     }
     
@@ -659,9 +659,9 @@ body{
     
     .nextsection {
        background: transparent;
-        padding: ;
-       clip-path: ;
-        width: ;
+        padding: none;
+       clip-path: none;
+        width: none;
         text-overflow: ellipsis;
         overflow: hidden;
         white-space: nowrap;
