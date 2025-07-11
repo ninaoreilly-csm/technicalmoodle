@@ -1,0 +1,7 @@
+body{
+    font-size:1.1rem!important;
+    }
+	
+	#section-0 .sectionname { 
+  pointer-events: none;
+}
