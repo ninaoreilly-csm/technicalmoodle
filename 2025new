@@ -1,7 +1,124 @@
 body{
     font-size:1.1rem!important;
     }
-	
-	#section-0 .sectionname { 
-  pointer-events: none;
-}
+    
+    
+    
+    .btn {
+     border-radius: 0.5rem;
+     
+    }
+    
+    .btn-primary {
+        color: #fff;
+        background-color: #0f6cbf!important;
+        border-color: #0f6cbf!important;
+        padding: 0.375rem 0.75rem!important;
+       
+    }
+    
+    #page-footer {
+        margin-right: 0rem;
+    }
+    
+    
+    /*---- MAKE CONTENT PAGE FULL WIDTH----- */
+  
+    #topofscroll { 
+      padding:0!important;
+  }
+    
+    #topofscroll.main-inner {
+    max-width:100vw!important;
+    margin-top: 0!important;
+    } 
+  
+    #topofscroll.main-inner:not(:has(.course-background-image))  #page-header {
+      max-width:85%;
+      margin:auto;
+      margin-top:50px;
+    }
+    
+    #page.drawers {
+    padding-left:0px!important;
+    padding-right:0px!important;
+  
+    } 
+  
+  
+    
+    /*-----Make Course Content Area thinner-----*/
+    
+    .secondary-navigation{
+        width: 100%;
+        margin: auto;
+        max-width: 1000px;
+    }
+    
+    #page-content {
+        width: 100%;
+        margin: auto;
+        max-width: 1200px;
+    }
+  
+    
+    
+    @media (max-width: 900px) {
+    .secondary-navigation{
+    width:1000%;
+    }
+    
+    #page-content {
+     width:100%;
+    }
+    
+    }
+    
+    @media (max-width: 500px) {
+    .secondary-navigation{
+    width:100%;
+    }
+    
+    #page-content {
+     width:100%;
+    }
+    
+    }
+    
+    
+    /*----DRAWER - LEFT-RIGHT MENUS-----*/
+    
+    .drawer-left {
+    box-shadow: -1px 0px 10px 1px #aaaaaa;
+    
+    }
+    
+    .drawer-right {
+    box-shadow: -1px 0px 10px 1px #aaaaaa;
+    
+    }
+    
+    .drawercontent::-webkit-scrollbar-track {
+         background: transparent; 
+    }
+    
+    @media (min-width: 992px){
+    .drawer-left {
+    z-index:3!important;
+    }
+    
+    .drawer-right {
+    z-index:3!important;
+    }
+    }
+    
+    #theme_boost-drawers-blocks a, #theme_boost-drawers-blocks li a {
+     color: #0f6cbf!important;
+      
+    }
+    
+
+    .courseindex .courseindex-item .courseindex-link, .courseindex .courseindex-item .courseindex-chevron {
+
+      text-decoration: none;
+  }
