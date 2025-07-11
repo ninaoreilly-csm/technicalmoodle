@@ -122,3 +122,7 @@ body{
 
       text-decoration: none;
   }
+
+.format-grid.ux-template-pilot.path-mod-page .generalbox h4:not(.sectionname), .format-grid.ux-template-pilot .activity-altcontent h4:not(.sectionname) {
+background: none;
+}
