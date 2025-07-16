@@ -99,18 +99,9 @@ header.course-background-image {
   pointer-events: none;
 }
 
-.grid-image-container img,
-.grid-generatedimage {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    border-radius: inherit;
-    display: block;
-}
+	   .format-grid.ux-template-pilot .course-content .thegrid .grid-generatedimage {
+    aspect-ratio: auto;
+	   }
 
 /* Card header text on top of image */
 .card-header {
