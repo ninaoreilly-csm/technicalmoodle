@@ -72,6 +72,7 @@ width: 100%;
 header.course-background-image {
     anchor-name: none;
     background: linear-gradient(90deg, #00081a 0%, #ffffff 100%);
+		border-radius: 10px;
     position: absolute;
     width: 100%;
     min-height: auto;
