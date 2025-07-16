@@ -110,6 +110,7 @@ header.course-background-image {
 
 /* Title styling */
 .card-header h3 {
+border-radius:10px;
   font-weight: 600;
 	font-size: 18px;
 	  padding: 6px;
