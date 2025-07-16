@@ -127,6 +127,7 @@ header.course-background-image {
  .grid-section {
     border-width:0px;
     transition: transform 0.3s ease;
+	 
     }
     
     .grid-section:hover {
@@ -134,5 +135,7 @@ header.course-background-image {
       box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     }
     
-
+ .grid-image img, .grid-generatedimage {
+    border-radius: 10px;
+ }
 </style>
