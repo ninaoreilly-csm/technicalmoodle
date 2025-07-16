@@ -106,9 +106,6 @@ header.course-background-image {
   z-index: 2;
   background: none;
   pointer-events: none;
-	border-radius:10px;
-       border-bottom-width: 0px;
-       padding: 10px 10px;
 }
 
 /* Title styling */
