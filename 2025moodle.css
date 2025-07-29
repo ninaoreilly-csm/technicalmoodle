@@ -150,7 +150,7 @@ header.course-background-image {
  }
 
 format-grid .grid-justify-space-between {
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .format-grid .thegrid {
     margin: auto;
