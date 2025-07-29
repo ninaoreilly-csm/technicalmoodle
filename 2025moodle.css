@@ -40,26 +40,7 @@ body{
   pointer-events: none;
 }
 
-.format-grid.ux-template-pilot.path-mod-page .generalbox h4:not(.sectionname), .format-grid.ux-template-pilot .activity-altcontent h4:not(.sectionname)
-{
-    background: none;
-margin: 0px;
-padding: 0px;
-	}
-	
-.format-grid.ux-template-pilot.path-mod-page .generalbox h3:not(.sectionname), .format-grid.ux-template-pilot .activity-altcontent h3:not(.sectionname)
-{
-    background: none;
-color: black;
-	}
 
-	.format-grid.ux-template-pilot.path-mod-page .generalbox h3:not(.sectionname), .format-grid.ux-template-pilot .activity-altcontent h3:not(.sectionname) {
-	background: none;
-    color: black;
-	    padding: 0px;
-    font-size: xx-large;
-    border: 0;
-	}
 header.course-background-image .title-action-container  {
         background: linear-gradient(rgb(0 0 0 / .5), rgb(0 0 0 / .5));
         padding: 1rem 4rem;
