@@ -150,14 +150,17 @@ header.course-background-image {
  }
 
 .format-grid .grid-justify-space-between {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap; 
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
-.format-grid .thegrid {
-    margin: auto;
-	 gap: .75rem;
-}
+
+@media (min-width: 768px) {
+    .format-grid .grid-justify-space-between {
+        justify-content: space-between !important;
+    }
 
    
 </style>
