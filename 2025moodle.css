@@ -149,7 +149,7 @@ header.course-background-image {
     border-radius: 10px;
  }
 
-format-grid .grid-justify-space-between {
+.format-grid .grid-justify-space-between {
     justify-content: center;
 }
 .format-grid .thegrid {
