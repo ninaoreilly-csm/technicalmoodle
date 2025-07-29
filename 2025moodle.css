@@ -159,11 +159,5 @@ header.course-background-image {
 	 gap: .75rem;
 }
 
-.flex-wrap {
-    flex-wrap: wrap !important;
-}
-.d-flex {
-    display: flex !important;
-}
    
 </style>
