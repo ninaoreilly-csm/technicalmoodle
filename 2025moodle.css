@@ -86,6 +86,10 @@ header.course-background-image {
   overflow: hidden;
 }
 
+.card {
+	border: none;
+}
+
 /* Gradient overlay for all grid image containers */
 .grid-image-container::before {
   content: '';
@@ -149,18 +153,12 @@ header.course-background-image {
     border-radius: 10px;
  }
 
-.format-grid .grid-justify-space-between {
+.format-grid .thegrid {
     display: flex !important;
     justify-content: center !important;
-    align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
+    margin: auto;
 }
-
-@media (min-width: 768px) {
-    .format-grid .grid-justify-space-between {
-        justify-content: space-between !important;
-    }
-
    
 </style>
