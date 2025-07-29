@@ -142,4 +142,12 @@ header.course-background-image {
  .grid-image img, .grid-generatedimage {
     border-radius: 10px;
  }
+
+.format-grid .thegrid {
+    justify-content: center !important;
+    margin: auto;
+	 gap: .75rem;
+}
+
+   
 </style>
