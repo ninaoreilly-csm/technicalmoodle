@@ -172,11 +172,6 @@ h2, .h2 {
     display: none;
 }
 
-.drawer-left #courseindexsection0,
-.drawer-left #courseindexcollapse0 {
-    display: none !important;
-}
-
 @media (max-width: 767.98px) {
   .thegrid {
     display: flex !important;
