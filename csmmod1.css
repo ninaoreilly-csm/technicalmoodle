@@ -1,93 +1,194 @@
+<style type="text/css">
 
-/*--Change section highlight background color --*/  
-
-.course-content ul.ctopics li.section.current .content .toggle {
-    background-color: rgb(228, 222, 225);
+/* ========== Base Typography & Buttons ========== */
+body {
+    font-size: 1.1rem !important;
 }
 
-.course-content ul.ctopics li.section.current .content .toggle-arrow { 
-    filter: invert(100%);
+.btn {
+    border-radius: 0.5rem;
 }
 
-.course-content ul.ctopics li.section.current .content .toggle span h3.sectionname{
-    filter: invert(100%);
-    color: rgb(255,255,255);
+.btn-primary {
+    color: #fff;
+    background-color: #0f6cbf !important;
+    border-color: #0f6cbf !important;
+    padding: 0.375rem 0.75rem !important;
 }
 
-
-/*--Fixes to Grid format after Moodle 4.1  from Elena LCC --*/  
-
-.thegrid {
-    box-sizing: unset;
-    justify-content: left!important;
-    text-decoration: none;
-    font-weight: bold;
-	border-radius: 20px;
-} 
-
-.grid-image {
-    position: relative;
-    vertical-align: bottom!important;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #000;
-    vertical-align: bottom!important;
-	filter: grayscale(100%) !important;
-	border-radius: 20px;
-/*    border: 1px solid black;*/	
-}    
-
-
-.grid-image:hover {
-	filter: grayscale(0%) !important;
-	 
+/* ========== Page Layout Adjustments ========== */
+#page-footer {
+    margin-right: 0rem;
 }
 
-.card {
-    border-radius: unset;
-    border: unset;
+#section-0 .sectionname {
+    pointer-events: none;
 }
 
-.card-header:first-child {
-    border-radius: unset;
+/* Expand main content container */
+@media (min-width: 768px) {
+    .pagelayout-standard #page.drawers .main-inner,
+    body.limitedwidth #page.drawers .main-inner {
+        max-width: 100% !important;
+        width: 100% !important;
+        margin: 0 auto !important;
+        padding: 0 1rem;
+    }
 }
 
-.card-header {
-    position: absolute;
-    z-index: 3;
-    
-    white-space: normal;
-    padding: 6px;
-    border-top: 1px #000000d6;
-    border-bottom: 1px #000000d6;
-    background-color: #000000d6;
-    opacity: .85;
+/* ========== Headers ========== */
+header.course-background-image .title-action-container {
+    background: linear-gradient(rgb(0 0 0 / 0.5), rgb(0 0 0 / 0.5));
+    padding: 1rem 4rem;
+    height: 6rem !important;
+    text-align: center;
+    color: white;
     width: 100%;
 }
 
-.text-truncate {
+header.course-background-image {
+    background: linear-gradient(90deg, #00081a 0%, #ffffff 100%);
+    border-radius: 10px;
+    position: absolute;
+    width: 100%;
+    display: flex !important;
+}
+
+/* ========== Grid Content Styling ========== */
+.format-grid .thegrid {
+    display: flex !important;
+    justify-content: center !important;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: auto;
+}
+
+.format-grid.ux-template-pilot .course-content .thegrid .grid-generatedimage {
+    aspect-ratio: auto;
+}
+
+.format-grid.ux-template-pilot.path-mod-page .generalbox h4:not(.sectionname),
+.format-grid.ux-template-pilot .activity-altcontent h4:not(.sectionname) {
+    background: none;
+}
+
+.grid-section {
+    border-width: 0px;
+    transition: transform 0.3s ease;
+}
+
+.grid-section:hover {
+    transform: scale(1.03);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+                rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+/* ========== Grid Item Media Styling ========== */
+.grid-image img,
+.grid-generatedimage {
+    border-radius: 10px;
+}
+
+.grid-image-container {
+    position: relative;
     overflow: hidden;
-    text-overflow: ellipsis;
-    color: #FF8500;
-    font-size: large;	
 }
 
-
-
-.card-img {
-    border-radius: unset;
+.grid-image-container::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0%));
+    border-radius: 10px;
+    z-index: 1;
+    pointer-events: none;
 }
 
-.card-img-bottom {
-    border-radius: unset;
+/* ========== Card Content Styling ========== */
+.card {
+    border: none;
 }
-.page-header-headings:not(.text-truncate), .coursename:not(.text-truncate), .categoryname:not(.text-truncate) {
-	display: none;
+
+.card-header {
+    display: flex;
+    align-items: end;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    background: none;
+    pointer-events: none;
 }
-.course-content h3.sectionname a:nth-child(1) {
-	display: none;
+
+.card-header h3 {
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 2px;
+    color: white;
+    margin: 0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    white-space: normal;
+    overflow: visible;
+    text-overflow: unset;
+    display: block;
 }
-.format-grid .thegrid .grid-section {
-	border-radius: 10px
+
+/* ========== Responsive Grid Layout ========== */
+
+/* Default Desktop Size */
+@media (min-width: 1325px) {
+    .thegrid {
+        max-width: 80vw;
+    }
 }
+
+/* Tablet View: 3 items per row */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .thegrid .grid-section {
+        flex: 0 0 31% !important;
+        max-width: 31% !important;
+    }
+}
+
+/* Mobile View: 2 items per row */
+@media (max-width: 767.98px) {
+    .thegrid .grid-section {
+        flex: 0 0 48% !important;
+        max-width: 48% !important;
+        box-sizing: border-box;
+    }
+}
+
+/* ========== Miscellaneous Cleanup ========== */
+h2, .h2 {
+    font-size: revert;
+}
+
+.form-group:has(#id_coursecontentnotification) {
+    display: none;
+}
+
+.drawer-left #courseindexsection0,
+.drawer-left #courseindexcollapse0 {
+    display: none !important;
+}
+
+@media (max-width: 767.98px) {
+  .thegrid {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
+  }
+
+  .thegrid > .grid-section {
+    flex: 0 0 calc(50% - 0.5rem) !important;
+    max-width: calc(50% - 0.5rem) !important;
+    box-sizing: border-box !important;
+    width: auto !important;
+  }
+}
+</style>
 
